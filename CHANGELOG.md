@@ -1,5 +1,11 @@
 # Archive documentation corrections
 
+## 29 September 2026 — public source and PyPI release
+
+Linked the maintained public package and companion source repositories, user
+documentation, and PyPI installation. Source contributions now go to those
+repositories. The historical 0.1.0 archive checksums below remain unchanged.
+
 ## 23 September 2026 — host 0.1.0 README correction
 
 Updated the host archive's README and its matching documentation copy with the
