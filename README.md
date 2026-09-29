@@ -3,7 +3,23 @@
 Public source downloads, documentation, and issue reporting for `vst-bench-ml`
 and `vst-bench-dataset-host`.
 
-## Source downloads and citation
+## Current software and documentation
+
+The maintained source repositories provide line-level history, installation
+instructions, user guides, and issue reporting:
+
+- [vst-bench-ml](https://github.com/itsuzef/vst-bench-ml-public): Python package.
+- [vst-bench-dataset-host](https://github.com/itsuzef/vst-bench-dataset-host-public):
+  sample-free fixture, native host, and full validation workflow.
+- [User guide](https://github.com/itsuzef/vst-bench-ml-public/blob/main/docs/README.md).
+- [First dataset walkthrough](https://github.com/itsuzef/vst-bench-dataset-host-public/blob/main/docs/QUICKSTART.md).
+- [PyPI](https://pypi.org/project/vst-bench-ml/): `python -m pip install vst-bench-ml==0.1.1`.
+
+This page retains the original archive records and checksum history. The new public
+histories start with documented imports of those source snapshots. Earlier private
+development history is not included.
+
+## Historical 0.1.0 source downloads and citation
 
 Version 0.1.0 was published on 23 September 2026. Download each source ZIP from
 its Zenodo record and cite the version-specific DOI.
@@ -19,27 +35,17 @@ and verifies sealed dataset integrity offline. The companion archive supplies a
 self-authored, sample-free VST3 test instrument, offline runner, JSON-RPC host,
 and validation scripts.
 
-This repository is the public documentation and support entry point, not a clone
-of the development repositories. The versioned software source is in the Zenodo
-ZIPs; private repository access is not required. No development history, private
-research material, datasets, generated audio, plugin binaries, or SDK source is
-included here.
-
 ## Getting started
 
-1. Download both source ZIPs from Zenodo.
-2. Check their SHA-256 values against [CHECKSUMS.sha256](CHECKSUMS.sha256), then
-   unpack them into separate directories.
-3. Follow the host archive's `README.md` for the native build, locked Python
-   environment, and complete validation workflow.
+Use the current package installation guide and companion walkthrough linked above.
+To reproduce the historical 0.1.0 release, download the two ZIPs, check their
+SHA-256 values against [CHECKSUMS.sha256](CHECKSUMS.sha256), and follow the host
+archive's README. Keep extracted archives intact and build outside them.
 
-The demonstrated setup is macOS arm64 with Python 3.12.13. Building requires a
-C++17 compiler, CMake 3.25 or newer, and Git/network access for the separately
-retrieved pinned VST3 SDK. Keep builds, environments, caches, and results outside
-the source roots. The source manifests reject missing, changed, or extra files.
-
-Integrity and repeatability on this setup do not establish cross-platform
-compatibility, scientific suitability, or perceptual quality.
+The demonstrated rendering environment is macOS arm64 and Python 3.12. Building
+the companion requires C++17, CMake 3.25+, and the separately retrieved pinned VST3
+SDK. Integrity and repeatability on a tested setup do not establish general
+portability, scientific suitability, or perceptual quality.
 
 ## Questions, bugs, and contributions
 
@@ -49,10 +55,10 @@ version, operating system, Python version, command, and a minimal reproducible
 example using the sample-free fixture where possible. Remove secrets, personal
 data, private paths, proprietary assets, and unlicensed audio before posting.
 
-Documentation corrections can be proposed as pull requests here. For source
-changes, open an issue describing the proposed change and a minimal patch against
-the published snapshot. See [CONTRIBUTING.md](CONTRIBUTING.md). No response-time
-or ongoing-support guarantee is made.
+Documentation corrections to this page can be proposed here. Submit software
+changes and software-specific issues to the corresponding public source repository.
+See [CONTRIBUTING.md](CONTRIBUTING.md). No response-time or ongoing-support guarantee
+is made.
 
 ## Licences
 

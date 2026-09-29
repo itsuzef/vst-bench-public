@@ -1,18 +1,14 @@
 # Contributing
 
-Use issues for bug reports, questions, and proposed source changes. Identify the
-software, archive version, operating system, Python version, expected behavior,
-observed behavior, and minimal reproduction steps. Prefer the bundled sample-free
-fixture over third-party plugins or audio in reproductions.
+For package code, installation, and user documentation, use
+https://github.com/itsuzef/vst-bench-ml-public.
+For the native fixture, host, and validation workflow, use
+https://github.com/itsuzef/vst-bench-dataset-host-public.
+Both accept issues and pull requests.
 
-Only submit material you have the right to share. Do not attach credentials,
-personal information, private logs or paths, plugin/SDK binaries, proprietary
-presets, commercial samples, datasets, or other private research material.
+This repository accepts corrections to the resource landing page and historical
+archive/checksum documentation. Preserve historical checksums and describe corrections
+in CHANGELOG.md. Include software versions and a minimal fixture example in bug
+reports, and share only material you have permission to publish.
 
-Pull requests in this repository are for public documentation. Propose software
-patches against the published source snapshot in an issue; acceptance, incorporation,
-and a future release are not guaranteed. Source changes require renewed integrity
-manifests and validation before distribution.
-
-Do not edit the files in a downloaded source archive and expect its original
-integrity manifest to pass. Work on a separate copy when preparing a patch.
+Documentation is MIT licensed. No response-time or ongoing-support commitment is made.
